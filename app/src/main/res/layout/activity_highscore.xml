@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sonuç"
+        android:id="@+id/tv_sonuc"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Skor"
+        android:id="@+id/tv_skor"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/tv_sonuc"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SkorIcerik"
+        android:id="@+id/tv_score"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/tv_skor"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Highscores"
+        android:id="@+id/tv_highscroes"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/tv_score"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Highscore1"
+        android:id="@+id/tv_highscore1"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/tv_highscroes"
+        android:layout_alignStart="@+id/tv_highscroes" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Higscore2"
+        android:id="@+id/tv_highscore2"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/tv_highscore1"
+        android:layout_alignRight="@+id/tv_score"
+        android:layout_alignEnd="@+id/tv_score" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Highscore3"
+        android:id="@+id/tv_highscore3"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/tv_highscore2"
+        android:layout_alignLeft="@+id/tv_highscore1"
+        android:layout_alignStart="@+id/tv_highscore1" />
+
+</RelativeLayout>
